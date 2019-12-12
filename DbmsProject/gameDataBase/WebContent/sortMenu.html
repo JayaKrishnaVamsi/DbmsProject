@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sorting</title>
+<link rel="stylesheet" href="front.css">
+</head>
+<body style="background-image:url('https://www.bestfunforall.com/wallpaperbetter/imgs/Zelda%20Green%20Link%20Master%20Sword%20Shield%20Triforce%20HD%20wallpaper%20%202.jpg');background-repeat:no-repeat;background-size:cover;">
+<form method='post' action='sortBy.jsp'>
+<h1 style="color:orange;font-size:20px;">Sort By:</h1>
+<select name="order">
+	<option value="ASC">Lowest to highest</option>
+	<option value="DESC">Highest to lowest</option> 
+</select><br/>
+<h2 style="color:orange;font-size:20px;">How Would You Like To Sort By?</h2>
+<div style="font-size:20px;color:white;">
+	<input type="radio" name="field" value="username"/>Username(Alphabetical)<br/>
+	<input type="radio" name="field" value="level"/>Level<br/>
+	<input type="radio" name="field" value="maxhp"/>Max HP<br/>
+	<input type="radio" name="field" value="maxmp"/>Max MP<br/>
+	<input type="radio" name="field" value="phys_attack"/>Physical Attack<br/>
+	<input type="radio" name="field" value="magic_attack"/>Magic Attack<br/>
+	<input type="radio" name="field" value="defence"/>Defense<br/>
+	<input type="radio" name="field" value="recovery"/>Recovery<br/>
+	<input type="radio" name="field" value="mobility"/>Mobility<br/>
+<input type="submit" value="GO"/>
+</div>
+</form>
+<div style = "position:relative; left:480px;top:40px">
+<button onclick="window.location.href='http://localhost:8080/gameDataBase/menu.html';">Menu</button>
+</div>
+</body>
+</html>

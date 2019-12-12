@@ -1,0 +1,77 @@
+@charset "ISO-8859-1";
+#links{
+	color:#05FF00;
+	display: inline-block;
+	font-size:20px;
+	padding:10px;
+}
+#links-container{
+	text-align:center;
+	color:#05FF00;
+}
+#welcometext{
+	color:orange;
+	text-align:center;
+}
+#insertion{
+	font-size:30px;
+	color:yellow;
+	padding:5px;
+}
+#upweap{
+	font-size:20px;
+	color:green;
+}
+
+}
+.getplayertb{
+	padding:10px;
+	border:5 px solid #4EFF00 line;
+	}
+#h1{
+	color:cyan;
+	padding:10px;
+	text-align:center;
+	font-size:20px;
+}
+#get1{
+	color:yellow;
+	padding:10px;
+	text-align:center;
+	font-size:20px;
+}
+.weap{
+	color:cyan;
+	font-size:20px;
+	background-image:url("https://images.assetsdelivery.com/compings_v2/ke77kz/ke77kz1503/ke77kz150300445.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.armor{
+	color:cyan;
+	font-size:20px;
+	background-image:url("https://images.assetsdelivery.com/compings_v2/ke77kz/ke77kz1503/ke77kz150300445.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.weaparmor{
+	color:cyan;
+	font-size:20px;
+	background-image:url("https://images.assetsdelivery.com/compings_v2/ke77kz/ke77kz1503/ke77kz150300445.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+input[type=submit]{
+	background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#querymenu{
+	font-size:20px;
+	color:cyan;
+}
+

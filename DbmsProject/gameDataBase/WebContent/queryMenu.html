@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Query Menu</title>
+<link rel="stylesheet" href="front.css">
+</head>
+<body style="background-image:url('https://www.bestfunforall.com/wallpaperbetter/imgs/Zelda%20Green%20Link%20Master%20Sword%20Shield%20Triforce%20HD%20wallpaper%20%202.jpg');background-repeat:no-repeat;background-size:cover;">
+<form action='displayBy.jsp' method='POST'>
+<h2 style="color:green;">Query by</h2>
+<div id="querymenu">
+<select name="field">
+	<option value="username">Username</option>
+	<option value="level">Level</option>
+	<option value="cname">Class</option>
+	<option value="wname">Equipped Weapon</option>
+	<option value="aname">Equipped Armour</option>
+</select>
+</div>
+<input type="text" name="value"/>
+<input type="submit" value="Search"/>
+</form>
+	<div style = "position:relative; left:480px;top:40px">
+<button onclick="window.location.href='http://localhost:8080/gameDataBase/menu.html';">Menu</button>
+</div>
+</body>
+</html>
